@@ -154,7 +154,9 @@
 			["51(MOSI)", "51"],
 			["52(SCK)", "52"],
 			["53(SS)", "53"]
-		]
+		],
+        "default_readUlrasonicSensor_TRIGPIN": "4",
+        "default_readUlrasonicSensor_ECHOPIN": "5"
 	},
 	"PINMODE":{
 		"menu": [

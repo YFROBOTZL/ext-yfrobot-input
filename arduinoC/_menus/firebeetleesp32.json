@@ -37,7 +37,9 @@
 			["D7", "D7"],
 			["D8", "D8"],
 			["D9", "D9"]
-		]
+		],
+        "default_readUlrasonicSensor_TRIGPIN": "D2",
+        "default_readUlrasonicSensor_ECHOPIN": "D3"
 	},
 	"PINMODE":{
 		"menu": [

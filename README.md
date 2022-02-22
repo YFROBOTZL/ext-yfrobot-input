@@ -1,4 +1,4 @@
-# YFROBOT ACTUATOR
+# YFROBOT INPUT
 
 
 ![](./arduinoC/_images/featured.png)
@@ -23,9 +23,7 @@
 * 购买此产品: [YFROBOT商城](https://www.yfrobot.com/).
 
 ## 描述
-支持屏幕上的不同图形，包括点，线，圆，矩形，三角形，圆角矩形和一些命令。
-支持DFRobot模块的英文字符和字符库芯片。
-IIC：ESP系列控制器重绘时重绘速率超过每秒30帧
+支持YFROBOT 输入型（模块）：按键模块、碰撞检测、磁感应传感器、倾角传感器、红外感应器、震动传感器、热释电传感器、触摸传感器、巡线传感器、旋转编码器。
 
 ## 积木列表
 
@@ -43,10 +41,12 @@ MIT
 
 ## 支持列表
 
+
 主板型号                | 实时模式    | ArduinoC   | MicroPython    | 备注
 ------------------ | :----------: | :----------: | :---------: | -----
-micro:bit        |             |       √       |             | 
-mpython        |             |        √      |             | 
+arduino uno        |             |       √已测试       |             | 
+micro:bit        |             |       √未测试       |             | 
+mpython        |             |        √未测试      |             | 
 
 
 ## 更新日志

@@ -74,7 +74,9 @@
 			["A3", "A3"],
 			["A4", "A4"],
 			["A5", "A5"]
-		]
+		],
+        "default_readUlrasonicSensor_TRIGPIN": "4",
+        "default_readUlrasonicSensor_ECHOPIN": "5"
 	},
 	"PINMODE":{
 		"menu": [

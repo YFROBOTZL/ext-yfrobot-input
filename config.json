@@ -1,17 +1,17 @@
 {
   "name": {
-    "zh-cn": "执行器（模块）",
-    "en": "Actuator"
+    "zh-cn": "输入型（模块）",
+    "en": "Input"
   },
   "description": {
-    "zh-cn": "YFROBOT 执行类：LED模块、蜂鸣器、风扇模块、振动模块、继电器、交通灯模块、语音播报模块、音频播放模块、录放模块",
-    "en": "YFROBOT actuator: LED module, buzzer, fan module, vibration module, relay, traffic light module, voice broadcasting module, audio broadcasting module, recording and playback module"
+    "zh-cn": "YFROBOT 输入型（模块）：按键模块、碰撞检测、磁感应传感器、倾角传感器、红外感应器、震动传感器、热释电传感器、触摸传感器、巡线传感器、旋转编码器",
+    "en": "YFROBOT input Module: button module, collision detection, magnetic induction sensor, inclination sensor, infrared sensor, vibration sensor, pyroelectric sensor, touch sensor, Line patrol sensor, rotary encoder"
   },
   "author": "YFROBOT",
   "email": "yfrobot@qq.com",
   "license": "MIT",
   "isBoard": false,
-  "id": "yfrobot_actuator",
+  "id": "yfrobot_input",
   "version": "0.0.1",
   "platform": [ "win", "mac", "web" ],
   "asset": {
