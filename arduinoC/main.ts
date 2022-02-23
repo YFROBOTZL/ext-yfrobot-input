@@ -82,7 +82,7 @@ namespace inputModule {
     export function inputDigitalModule(parameter: any, block: any) {
         let inputModule = parameter.INPUTMODULEDIGITAL.code;
         let inputModulePin = parameter.IDMPIN.code;
-        Generator.addCode(`digitalRead(${inputModulePin});`);
+        Generator.addCode(`digitalRead(${inputModulePin})`);
     }
 
     //% block="read [INPUTMODULEANALOG] on [IAMPIN]" blockType="reporter"
@@ -91,7 +91,7 @@ namespace inputModule {
     export function inputAnalogModule(parameter: any, block: any) {
         let inputModule = parameter.INPUTMODULEANALOG.code;
         let inputModulePin = parameter.IAMPIN.code;
-        Generator.addCode(`analogRead(${inputModulePin});`);
+        Generator.addCode(`analogRead(${inputModulePin})`);
     }
 
     //% block="read temperature on [IAMPIN] (LM35-℃)" blockType="reporter"
