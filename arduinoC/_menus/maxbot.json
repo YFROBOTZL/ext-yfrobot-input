@@ -73,8 +73,8 @@
 			["P15(MOSI)", "15"],
 			["P16", "16"]
 		],
-        "default_readUlrasonicSensor_TRIGPIN": "P1",
-        "default_readUlrasonicSensor_ECHOPIN": "P2"
+        "default_readUlrasonicSensor_TRIGPIN": "1",
+        "default_readUlrasonicSensor_ECHOPIN": "2"
 	},
 	"PINMODE":{
 		"menu": [
