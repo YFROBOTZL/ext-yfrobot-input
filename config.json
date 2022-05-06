@@ -4,20 +4,19 @@
     "en": "Input"
   },
   "description": {
-    "zh-cn": "YFROBOT 输入型（模块）：按键模块、碰撞检测、磁感应传感器、倾角传感器、红外感应器、震动传感器、热释电传感器、触摸传感器、巡线传感器、旋转编码器",
-    "en": "YFROBOT input Module: button module, collision detection, magnetic induction sensor, inclination sensor, infrared sensor, vibration sensor, pyroelectric sensor, touch sensor, Line patrol sensor, rotary encoder"
+    "zh-cn": "YFROBOT 输入型（模块）：按键模块、碰撞检测、磁感应传感器、倾角传感器、红外感应器、震动传感器、热释电传感器、触摸传感器、单/双路巡线传感器、旋转编码器、温度传感器、温湿度传感器DHT11、超声波传感器、MQ气体传感器、灰度传感器",
+    "en": "YFROBOT input Module: button module, collision detection, magnetic induction sensor, inclination sensor, infrared sensor, vibration sensor, pyroelectric sensor, touch sensor, Single / Dual Line patrol sensor, rotary encoder, Temperature sensor, temperature and humidity sensor DHT11, ultrasonic sensor, MQ Gas sensor, Gray sensor"
   },
   "author": "YFROBOT",
   "email": "yfrobot@qq.com",
   "license": "MIT",
   "isBoard": false,
   "id": "yfrobot_input",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "platform": [ "win", "mac", "web" ],
   "asset": {
     "arduinoC": {
       "dir": "arduinoC/",
-      "version": "0.0.1",
       "board": [ "microbit", "esp32", "arduino","arduinounor3","arduinonano", "mega2560", "leonardo" ],
       "main": "main.ts"
     }

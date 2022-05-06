@@ -27,6 +27,8 @@ enum IDMDIGITAL {
     BUTTON,
     //% blockId="DIM_COLLISION_SWITCH" block="COLLISION_SWITCH"
     COLLISION_SWITCH,
+    //% blockId="DIM_PATROL_SINGLE" block="PATROL_SINGLE"
+    PATROL_SINGLE,
     //% blockId="DIM_PATROL_LEFT" block="PATROL_LEFT"
     PATROL_LEFT,
     //% blockId="DIM_PATROL_RIGHT" block="PATROL_RIGHT"
@@ -50,6 +52,10 @@ enum IAMANALOG {
     ROCKER_X,
     //% blockId="AIM_ROCKER_Y" block="ROCKER_Y"
     ROCKER_Y,
+    //% blockId="AIM_GRAY" block="GRAY"
+    GRAY,
+    //% blockId="AIM_MQ_GAS" block="MQ_GAS"
+    MQ_GAS,
 }
 
 enum DHT {
