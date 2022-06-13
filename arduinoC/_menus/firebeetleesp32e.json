@@ -90,10 +90,12 @@
 			["IO19", "19"],
 			["IO23", "23"],
 			["IO32", "32"],
-			["IO33", "33"]
+			["IO33", "33"],
+			["SDA/IO21", "21"],
+			["SCL/IO22", "22"]
 		],
-        "default_readUlrasonicSensor_TRIGPIN": "D3",
-        "default_readUlrasonicSensor_ECHOPIN": "D4"
+        "default_readUlrasonicSensor_TRIGPIN": "21",
+        "default_readUlrasonicSensor_ECHOPIN": "22"
 	},
 	"PINMODE":{
 		"menu": [
