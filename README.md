@@ -48,4 +48,8 @@ ESP32E        |             |       √未测试        |             |
 http://www.yfrobot.com.cn/wiki/index.php?title=%E8%81%94%E7%B3%BB%E6%88%91%E4%BB%AC
 
 
+## 其他扩展库 Other extension libraries
+* http://yfrobot.com.cn/wiki/index.php?title=YFRobot%E5%BA%93_For_Mind%2B
+
+
 ## 参考 Reference Resources
