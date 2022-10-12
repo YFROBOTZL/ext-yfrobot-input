@@ -56,6 +56,12 @@ enum IAMANALOG {
     GRAY,
     //% blockId="AIM_MQ_GAS" block="MQ_GAS"
     MQ_GAS,
+    //% blockId="AIM_MOISTURE" block="MOISTURE"
+    MOISTURE,
+    //% blockId="AIM_FLAME" block="FLAME"
+    FLAME,
+    //% blockId="AIM_MQ_GAS" block="PRESSURE"
+    PRESSURE,
 }
 
 enum DHT {
