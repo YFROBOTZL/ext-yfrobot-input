@@ -94,6 +94,11 @@ namespace inputModule {
     export function inputDigitalModule(parameter: any, block: any) {
         let inputModule = parameter.INPUTMODULEDIGITAL.code;
         let inputModulePin = parameter.IDMPIN.code;
+        
+        if(Generator.board === 'pico'){//如果是pico板，生成如下代码
+            Generator.addSetup(`pinMode_${inputModulePin}`,`pinMode(${inputModulePin}, INPUT);`);
+        }
+
         Generator.addCode(`digitalRead(${inputModulePin})`);
     }
 
