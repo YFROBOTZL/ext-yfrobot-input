@@ -33,9 +33,9 @@ enum IDMDIGITAL {
     PATROL_LEFT,
     //% blockId="DIM_PATROL_RIGHT" block="PATROL_RIGHT"
     PATROL_RIGHT,
-    //% blockId="DIM_PATROL_LEFT" block="ROTARY_A"
+    //% blockId="DIM_ROTARY_A" block="ROTARY_A"
     ROTARY_A,
-    //% blockId="DIM_PATROL_RIGHT" block="ROTARY_B"
+    //% blockId="DIM_ROTARY_B" block="ROTARY_B"
     ROTARY_B,
 }
 
