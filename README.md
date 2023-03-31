@@ -35,10 +35,12 @@ MIT
 arduino uno        |             |       √已测试       |             | 
 micro:bit        |             |       √未测试       |             | 
 mpython掌控板        |             |        √未测试      |             | 
-ESP32E        |             |       √未测试        |             | 
+pico        |             |       √已测试       |             | 
+ESP32-E        |             |       √未测试        |             | 
 
 
 ## 更新日志 Release Note
+* V0.0.6  更新esp32-E 引脚配置
 * V0.0.5  适配esp32-E、pico
 * V0.0.4  新增水分传感器、火焰传感器、压力传感器
 * V0.0.3  适配ESP32E，Mind+V1.7.2 RC3.0版本软件测试
