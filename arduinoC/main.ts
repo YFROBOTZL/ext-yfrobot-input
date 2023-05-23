@@ -116,9 +116,15 @@ namespace inputModule {
     //% IAMPIN.shadow="dropdown" IAMPIN.options="PIN_AnalogRead"
     export function readTemperatureSensor(parameter: any, block: any) {
         let inputModulePin = parameter.IAMPIN.code;
-        Generator.addInclude("include_DFRobot_Libraries", `#include <DFRobot_Libraries.h>`);
-        Generator.addObject("object_DFRobot_LM35", `DFRobot_LM35`, `LM35_${inputModulePin};`);
-        Generator.addCode(`LM35_${inputModulePin}.getTemperature(${inputModulePin})`);
+        if(Generator.board === 'arduino'){
+            Generator.addCode(`(float)(analogRead(${inputModulePin})) * (4.9 / 10.24)`);
+        } else if(Generator.board === 'esp32'){//如果是掌控板，生成如下代码
+            Generator.addCode(`(float)(analogRead(${inputModulePin})) * (3.3 / 17.50)`);
+        } else if(Generator.board === 'microbit'){//如果是掌控板，生成如下代码
+            Generator.addCode(`(float)(analogRead(${inputModulePin})) * (3.1 / 10.24)`);
+        } else {
+            Generator.addCode(`not support`);
+        }
     }
 
     //% block="read T&H on [IAMPIN] [DHTMODULE] [TH]" blockType="reporter"
