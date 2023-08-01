@@ -4,20 +4,20 @@
     "en": "Input"
   },
   "description": {
-    "zh-cn": "YFROBOT输入型模块-V0.0.7：按键模块、碰撞检测、磁感应传感器、倾角传感器、红外感应器、震动传感器、热释电传感器、触摸传感器、单/双路巡线传感器、旋转编码器、温度传感器、温湿度传感器DHT11、超声波传感器、MQ气体传感器、灰度传感器、水分传感器、火焰传感器、压力传感器",
-    "en": "YFROBOT input Module-V0.0.7: button module, collision detection, magnetic induction sensor, inclination sensor, infrared sensor, vibration sensor, pyroelectric sensor, touch sensor, Single / Dual Line patrol sensor, rotary encoder, Temperature sensor, temperature and humidity sensor DHT11, ultrasonic sensor, MQ Gas sensor, Gray sensor，, moisture sensor, flame sensor, pressure sensor"
+    "zh-cn": "YFROBOT输入型模块-V0.0.8：按键模块、碰撞检测、磁感应传感器、倾角传感器、红外感应器、震动传感器、热释电传感器、触摸传感器、单/双路巡线传感器、旋转编码器、温度传感器、温湿度传感器DHT11、超声波传感器、MQ气体传感器、灰度传感器、水分传感器、火焰传感器、压力传感器",
+    "en": "YFROBOT input Module-V0.0.8: button module, collision detection, magnetic induction sensor, inclination sensor, infrared sensor, vibration sensor, pyroelectric sensor, touch sensor, Single / Dual Line patrol sensor, rotary encoder, Temperature sensor, temperature and humidity sensor DHT11, ultrasonic sensor, MQ Gas sensor, Gray sensor，, moisture sensor, flame sensor, pressure sensor"
   },
   "author": "YFROBOT",
   "email": "yfrobot@qq.com",
   "license": "MIT",
   "isBoard": false,
   "id": "yfrobot_input",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "platform": [ "win", "mac", "web" ],
   "asset": {
     "arduinoC": {
       "dir": "arduinoC/",
-      "board": [ "microbit", "esp32", "firebeetleesp32", "firebeetleesp32e", "pico", "telloesp32", "arduino","arduinounor3","arduinonano", "mega2560", "leonardo" ],
+      "board": [ "microbit", "esp32", "firebeetleesp32", "firebeetleesp32e", "pico", "telloesp32", "arduino","arduinounor3","arduinonano", "mega2560", "leonardo", "esp8266" ],
       "main": "main.ts"
     }
   }

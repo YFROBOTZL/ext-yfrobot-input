@@ -37,9 +37,11 @@ micro:bit        |             |       √未测试       |             |
 mpython掌控板        |             |        √未测试      |             | 
 pico        |             |       √已测试       |             | 
 ESP32-E        |             |       √未测试        |             | 
+esp8266        |             |       √未测试        |             | 
 
 
 ## 更新日志 Release Note
+* V0.0.8  更新ESP8266 引脚配置，未测试功能，DHT11库不支持，暂不更新
 * V0.0.7  LM35在ESP32的掌控板、ESPONE的应用
 * V0.0.6  更新esp32-E 引脚配置
 * V0.0.5  适配esp32-E、pico
